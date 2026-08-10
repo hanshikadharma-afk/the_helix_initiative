@@ -1,0 +1,378 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Helix Initiactive</title>
+  <meta name="description" content="A modern editorial-style student-led medical publication." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav">
+    <div class="wrap navin">
+      <div class="brand">The Helix Initiactive</div>
+
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#mystery">Medical Mystery Journal</a>
+        <a href="#innovation">Innovation Notebook</a>
+        <a href="#future">Future of Medicine</a>
+        <a href="#myth">Myth vs Fact</a>
+        <a href="#public-health">Public Health</a>
+        <a href="#founder">Founder</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">◐</button>
+        <a class="pill" href="#newsletter">Subscribe</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap grid2">
+        <div>
+          <span class="eyebrow">Student-led medical publication</span>
+
+          <h1>The Helix Initiactive</h1>
+
+          <p class="sub">
+            A student-led publication exploring medicine, public health, healthcare systems,
+            and scientific innovation—making complex science accessible to everyone.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#mystery">Explore Sections</a>
+            <a class="btn secondary" href="#about">Learn More</a>
+          </div>
+
+          <p class="muted note">
+            Includes dark mode, search, bookmarks, glossary hovers, reading progress, and mobile-responsive layouts.
+          </p>
+        </div>
+
+        <div class="panel dna">
+          <div class="line l1"></div>
+          <div class="line l2"></div>
+          <div class="line l3"></div>
+
+          <div class="orb o1"></div>
+          <div class="orb o2"></div>
+
+          <div class="hero-card">
+            <span class="tag">Spotlight</span>
+
+            <h3>Science made clear for students</h3>
+
+            <p class="muted">
+              Explore medical topics through focused editorial sections built for learning and curiosity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap grid2">
+        <div>
+          <h2>Who We Are</h2>
+
+          <p class="sub">
+            The Helix Initiactive is an independent student initiative dedicated to exploring medicine through research,
+            storytelling, and innovation. Our mission is to simplify complex medical concepts while encouraging curiosity,
+            critical thinking, and evidence-based learning among students worldwide.
+          </p>
+        </div>
+
+        <div class="panel">
+          <div class="stats">
+            <div class="stat">
+              <div class="num">5</div>
+              <div class="muted">featured sections</div>
+            </div>
+
+            <div class="stat">
+              <div class="num">20+</div>
+              <div class="muted">topics</div>
+            </div>
+
+            <div class="stat">
+              <div class="num">100%</div>
+              <div class="muted">student-led</div>
+            </div>
+
+            <div class="stat">
+              <div class="num">24/7</div>
+              <div class="muted">accessible</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Featured Sections</h2>
+
+            <p>
+              Each card is designed as a clickable editorial block with icon, image, and a polished hover state.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards5">
+          <a class="card" href="#mystery">
+            <div class="emoji">🩺</div>
+            <div class="imgph"></div>
+
+            <h3>Medical Mystery Journal</h3>
+
+            <p class="muted">
+              Every week, we investigate a rare disease, exploring symptoms, causes, diagnosis, treatment, and the science behind it.
+            </p>
+
+            <span class="tag">Explore Cases</span>
+          </a>
+
+          <a class="card" href="#innovation">
+            <div class="emoji">💡</div>
+            <div class="imgph"></div>
+
+            <h3>Innovation Notebook</h3>
+
+            <p class="muted">
+              Creative ideas designed to improve hospitals, healthcare technology, medical devices, accessibility, and patient care.
+            </p>
+
+            <span class="tag">View Ideas</span>
+          </a>
+
+          <a class="card" href="#future">
+            <div class="emoji">🤖</div>
+            <div class="imgph"></div>
+
+            <h3>Future of Medicine</h3>
+
+            <p class="muted">
+              Discover how artificial intelligence, robotics, gene editing, and biotechnology are transforming healthcare.
+            </p>
+
+            <span class="tag">Read Articles</span>
+          </a>
+
+          <a class="card" href="#myth">
+            <div class="emoji">✅</div>
+            <div class="imgph"></div>
+
+            <h3>Medical Myth vs Fact</h3>
+
+            <p class="muted">
+              Separating scientific evidence from misinformation by debunking common medical myths with trusted sources.
+            </p>
+
+            <span class="tag">Learn More</span>
+          </a>
+
+          <a class="card" href="#public-health">
+            <div class="emoji">🌍</div>
+            <div class="imgph"></div>
+
+            <h3>Public Health Around the World</h3>
+
+            <p class="muted">
+              Compare healthcare systems, disease prevention, vaccination programs, health policies, and public health initiatives.
+            </p>
+
+            <span class="tag">Explore Countries</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="mystery">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Medical Mystery Journal</h2>
+
+            <p>
+              Focused coverage of rare diseases, unusual diagnoses, and the science behind complex cases.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p class="sub">
+            This section is ready for your first mystery case, patient story, or disease breakdown.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="innovation">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Innovation Notebook</h2>
+
+            <p>
+              Ideas and concepts that improve healthcare delivery, medical tools, and patient experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p class="sub">
+            Use this section for product concepts, hospital workflow ideas, and accessibility improvements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="future">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Future of Medicine</h2>
+
+            <p>
+              AI, robotics, biotech, and other technologies changing medicine.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p class="sub">
+            Use this section for emerging technologies and the future of healthcare innovation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="myth">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Medical Myth vs Fact</h2>
+
+            <p>
+              Evidence-based explanations that correct common misconceptions in healthcare.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p class="sub">
+            Use this section to compare myths with scientific facts and trusted sources.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="public-health">
+      <div class="wrap">
+        <div class="section-title">
+          <div>
+            <h2>Public Health Around the World</h2>
+
+            <p>
+              Global healthcare systems, prevention strategies, and public health policy.
+            </p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <p class="sub">
+            Use this section for country comparisons, policy analysis, and public health trends.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="founder">
+      <div class="wrap grid2">
+        <div class="panel">
+          <h2>About the Founder</h2>
+
+          <p class="sub">
+            Created by a high school student passionate about medicine, research, innovation, and science communication.
+            The goal is to inspire students to explore healthcare through accessible, evidence-based content.
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>Glossary Preview</h3>
+
+          <p class="muted">
+            Hover over
+            <span class="glossary" title="A molecule carrying genetic instructions">DNA</span>,
+            <span class="glossary" title="A medicine that treats disease">drug</span>, or
+            <span class="glossary" title="A treatment that helps the body respond to infection">vaccine</span>
+            for quick explanations.
+          </p>
+
+          <h3 class="newsletter-title">Newsletter</h3>
+
+          <div id="newsletter" class="newsletter">
+            <input
+              class="input"
+              type="email"
+              placeholder="Email address"
+              aria-label="Email address"
+            />
+
+            <a class="btn primary" href="#">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footgrid">
+      <div>
+        <div class="brand light">The Helix Initiactive</div>
+
+        <p class="footer-text">
+          A modern editorial medical publication built for students, readers, and future healthcare leaders.
+        </p>
+      </div>
+
+      <div>
+        <strong>About</strong><br />
+        <a href="#about">About</a><br />
+        <a href="#features">Sections</a><br />
+        <a href="#founder">Founder</a>
+      </div>
+
+      <div>
+        <strong>Connect</strong><br />
+        <a href="#newsletter">Newsletter Signup</a><br />
+        <a href="#">Instagram</a><br />
+        <a href="#">LinkedIn</a>
+      </div>
+
+      <div>
+        <strong>Social</strong><br />
+        <a href="#">GitHub</a><br />
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+```
