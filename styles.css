@@ -330,3 +330,16 @@ section{padding:76px 0}
   .hero{padding-top:56px}
   .hero h1{font-size:3rem}
 }
+.logo-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
